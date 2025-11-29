@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Creating a Class
+title: Practice
 parent: Classes and Objects
 grand_parent: Java OOPs Concepts
 nav_order: 1

@@ -43,3 +43,8 @@ defaults:
       path: ""
     values:
       image: "/assets/images/social-preview.png" # Optional SEO image
+
+
+# ----------------------------------------------------------------------------
+# For copy button on code
+enable_copy_code_button: true

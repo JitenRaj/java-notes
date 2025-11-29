@@ -61,7 +61,7 @@ In the constructor, `this` refers to the current instance of the class. It is us
 
 ### Overloading Constructors
 
-Java allows you to have multiple constructors in a class, each with a different parameter list. This is known as `constructor overloading`. Overloading constructors allows you to create objects in different ways, depending on the parameters provided.
+**Java** allows you to have multiple constructors in a class, each with a different parameter list. This is known as _constructor overloading_. Overloading constructors allows you to create objects in different ways, depending on the parameters provided.
 
 Here's an example of a class with overloaded constructors:
 
@@ -88,17 +88,17 @@ public class Car {
 }
 ```
 
-In this example, the Car class has three constructors:
+In this example, the `Car` class has three constructors:
 
-1. One that takes both brand and year as parameters.
-2. One that takes only brand and sets a default value for year.
-3. One that takes no parameters and sets default values for both brand and year.
+1. One that takes both `brand` and `year` as parameters.
+2. One that takes only `brand` and sets a default value for `year`.
+3. One that takes no parameters and sets default values for both `brand` and `year`.
 
 Overloading constructors provides flexibility in how you create instances of a class.
 
 ### Copy Constructors
 
-A copy constructor in Java is a special type of constructor used to create a new object as a copy of an existing object. It takes a single parameter: an object of the same class. The fields of the new object are initialized with the values of the fields of the existing object, effectively cloning the object. This is useful when you want to create a duplicate object with the same state.
+A copy constructor in **Java** is a special type of constructor used to create a new object as a copy of an existing object. It takes a single parameter: an object of the same class. The fields of the new object are initialized with the values of the fields of the existing object, effectively cloning the object. This is useful when you want to create a duplicate object with the same state.
 
 Here’s how a copy constructor looks:
 
@@ -121,11 +121,11 @@ public class Car {
 }
 ```
 
-In the example above, the copy constructor ensures that all fields (brand and year) from the original Car object are accurately copied to the new Car object.
+In the example above, the copy constructor ensures that all fields (`brand` and `year`) from the original `Car` object are accurately copied to the new `Car` object.
 
 ### Member Functions
 
-Member functions define the behavior of the object. For the Person class, we can define a method to display the object's data:
+Member functions define the behavior of the object. For the `Person` class, we can define a method to display the object's data:
 
 ```java
 public class Person {
@@ -146,7 +146,7 @@ public class Person {
 
 ### Creating Objects from Classes
 
-Once you have defined a class, you can create objects (instances of the class). Here’s how we can create and use objects of the Person class:
+Once you have defined a class, you can create objects (instances of the class). Here’s how we can create and use objects of the `Person` class:
 
 ```java
 public class Person {
@@ -174,6 +174,6 @@ public class Main {
 }
 ```
 
-Here, we create an object, person, with the name "Alice" and age 30 by using the new keyword along with the Person class's constructor. The inputs "Alice" and 30 are passed directly to the constructor to initialize the object's state.
+Here, we create an object, `person`, with the name "Alice" and age 30 by using the `new` keyword along with the `Person` class's constructor. The inputs "Alice" and 30 are passed directly to the constructor to initialize the object's state.
 
-The object then uses its display method to print its data to the console. This demonstrates how to instantiate a class and call its member functions in a Java program.
+The object then uses its `display` method to print its data to the console. This demonstrates how to instantiate a class and call its member functions in a Java program.

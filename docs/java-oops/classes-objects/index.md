@@ -3,7 +3,6 @@ layout: default
 title: Classes and Objects
 parent: Java OOPs Concepts
 nav_order: 1
-has_children: true
 permalink: /docs/java-oops/classes-objects
 ---
 

@@ -1,0 +1,45 @@
+# -----------------------------------------------------------------------------
+# Site Settings
+# -----------------------------------------------------------------------------
+title: Java Notes
+description: "Java Concepts in details"
+remote_theme: just-the-docs/just-the-docs
+
+# -----------------------------------------------------------------------------
+# URL Settings (Critical for GitHub Pages)
+# -----------------------------------------------------------------------------
+url: "https://jitenraj.github.io"
+baseurl: "/java-notes"
+
+# -----------------------------------------------------------------------------
+# Theme Settings (Just the Docs specific)
+# -----------------------------------------------------------------------------
+color_scheme: "light"
+search_enabled: true
+heading_anchors: true  # Nice feature: adds links next to headers
+
+# Links that appear in the top right
+aux_links:
+  "GitHub Repository":
+    - "//github.com/JitenRaj/java-notes"
+
+# Footer content (Optional - this replaces the old 'usernames' section)
+footer_content: "Copyright &copy; 2025 Jiten Raj. Distributed by an MIT license."
+
+# -----------------------------------------------------------------------------
+# Build Settings
+# -----------------------------------------------------------------------------
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+
+# -----------------------------------------------------------------------------
+# Defaults (Optional)
+# -----------------------------------------------------------------------------
+# If you aren't using math equations, you can safely remove the block below.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/images/social-preview.png" # Optional SEO image

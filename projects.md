@@ -20,7 +20,7 @@ Detailed tutorial on Java OOPs Concepts.
 
 ### ☕ Spring Boot API Demo
 
-**Status:** <span class="label label-yellow">Coming soon</span>
+**Status:** <span class="label label-yellow">Coming soon</span>  
 A reference architecture for building REST APIs with Spring Boot 3.
 
 [View on GitHub](https://github.com/JitenRaj/java-notes){: .btn .btn-outline }

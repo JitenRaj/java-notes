@@ -1,24 +1,92 @@
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // 1. Create the button
-        var btn = document.createElement("button");
-        btn.innerHTML = "🌙"; // Moon icon for dark mode
-        btn.id = "mode-toggle";
-        btn.style.cssText = "background:none; border:none; cursor:pointer; font-size:1.2rem; margin-left:10px;";
+<style>
+    /* Floating Button Style */
+    #mode-toggle {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999; /* Ensures it sits on top of everything */
         
-        // 2. Append button to the header (Next to the search or title)
-        var header = document.querySelector(".site-header");
-        if(header){
-            header.appendChild(btn);
-        }
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: none;
+        background-color: #7253ed; /* Just the Docs purple */
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        transition: transform 0.2s;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-        // 3. Check LocalStorage for previous preference
-        if (localStorage.getItem("theme") === "dark") {
+    #mode-toggle:hover {
+        transform: scale(1.1);
+    }
+
+    /* DARK MODE COLOR OVERRIDES */
+    body.dark-mode {
+        background-color: #1b1b1d !important;
+        color: #c9d1d9 !important;
+    }
+    
+    /* Sidebar */
+    body.dark-mode .side-bar {
+        background-color: #212124 !important;
+        border-right: 1px solid #30363d !important;
+    }
+    
+    /* Header */
+    body.dark-mode .site-header {
+        background-color: #1b1b1d !important;
+        border-bottom: 1px solid #30363d !important;
+    }
+    
+    /* Search Bar */
+    body.dark-mode .search-input {
+        background-color: #0d1117 !important;
+        color: #c9d1d9 !important;
+        border: 1px solid #30363d !important;
+    }
+    
+    /* Links */
+    body.dark-mode a { color: #58a6ff !important; }
+    
+    /* Code Blocks */
+    body.dark-mode code { background-color: #2e353e !important; color: #e1e4e8 !important; }
+    body.dark-mode div.highlight { background-color: #161b22 !important; }
+    body.dark-mode pre { background-color: #161b22 !important; }
+    
+    /* Content Headings */
+    body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 { color: #e1e4e8 !important; }
+
+    /* Tables */
+    body.dark-mode table { color: #c9d1d9 !important; }
+    body.dark-mode th, body.dark-mode td { border-color: #30363d !important; }
+</style>
+
+<script>
+    // Wait for the DOM to fully load
+    document.addEventListener("DOMContentLoaded", function() {
+        
+        // Create the button
+        var btn = document.createElement("button");
+        btn.id = "mode-toggle";
+        btn.innerHTML = "🌙"; 
+        
+        // Add to body
+        document.body.appendChild(btn);
+
+        // Check Local Storage
+        var currentTheme = localStorage.getItem("theme");
+        if (currentTheme === "dark") {
             document.body.classList.add("dark-mode");
             btn.innerHTML = "☀️";
         }
 
-        // 4. Add Click Event
+        // Click Event
         btn.addEventListener("click", function() {
             document.body.classList.toggle("dark-mode");
             

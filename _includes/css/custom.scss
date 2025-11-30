@@ -1,0 +1,37 @@
+/* _includes/css/custom.scss */
+
+/* Define the Dark Mode Colors */
+body.dark-mode {
+    /* Backgrounds */
+    background-color: #1b1b1d;
+    color: #c9d1d9;
+
+    .side-bar {
+        background-color: #1b1b1d;
+        border-right: 1px solid #30363d;
+    }
+
+    .site-header {
+        background-color: #1b1b1d;
+        border-bottom: 1px solid #30363d;
+    }
+
+    /* Search Bar */
+    .search-input {
+        background-color: #0d1117;
+        color: #c9d1d9;
+        border-color: #30363d;
+    }
+
+    /* Links */
+    a { color: #58a6ff; }
+    
+    /* Code Blocks */
+    code { background-color: #2e353e; color: #e1e4e8; }
+    div.highlight { background-color: #0d1117; }
+    
+    /* Table of Contents / Nav */
+    .nav-list .nav-list-item .nav-list-link.active {
+        color: #58a6ff;
+    }
+}

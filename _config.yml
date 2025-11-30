@@ -48,3 +48,7 @@ defaults:
 # ----------------------------------------------------------------------------
 # For copy button on code
 enable_copy_code_button: true
+
+# ----------------------------------------------------------------------------
+# Color Scheme Settings
+color_scheme: "light"

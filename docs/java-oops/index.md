@@ -8,4 +8,4 @@ permalink: /docs/java-oops
 
 ## Java OOPs Concepts
 
-Welcome to the OOPs section. Select a subtopic from the menu.
+The core pillars of Object-Oriented Programming in Java **classes**, **objects**, **inheritance**, **polymorphism**, **abstraction**, and **encapsulation** establish the foundation for robust software design. Command over these principles is essential for architecting scalable solutions and mastering advanced design patterns.

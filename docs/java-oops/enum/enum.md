@@ -2,7 +2,7 @@
 layout: default
 title: Enum
 parent: Java OOPs Concepts
-nav_order: 2
+nav_order: 6
 permalink: /docs/java-oops/enum
 ---
 
@@ -161,7 +161,7 @@ public class Main {
 
 In this example, we retrieve the `EARTH` constant from the `Planet` enum and use it to access its `getMass()` and `getRadius()` methods.
 
-Output:
+**Output:**
 
 ```text
 The mass of EARTH is 5.976E24 kg.

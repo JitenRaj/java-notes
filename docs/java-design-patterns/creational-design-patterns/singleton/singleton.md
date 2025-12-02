@@ -180,11 +180,12 @@ Success: Both references point to the same object (Identity Verified).
 ### Key Characteristics
 
 To ensure a correct Singleton implementation, you must adhere to these principles:
-    **One Instance per JVM:** strictly ensure that only one instance of the class exists.
-    **Global Access:** Provide a `public static` factory method to access that instance.
-    **Private Constructor:** Explicitly declare the constructor `private` to prevent `new Singleton()` calls.
-    ***Static Instance:** The class holds a _static reference_ to the single created instance.
-    **Lazy Loading:** The instance is often created only when it is actually needed (as seen in the code above), saving memory if the object is never requested.
+
+* **One Instance per JVM:** strictly ensure that only one instance of the class exists.
+* **Global Access:** Provide a `public static` factory method to access that instance.
+* **Private Constructor:** Explicitly declare the constructor `private` to prevent `new Singleton()` calls.
+* **Static Instance:** The class holds a _static reference_ to the single created instance.
+* **Lazy Loading:** The instance is often created only when it is actually needed (as seen in the code above), saving memory if the object is never requested.
 
 ### Why It Matters
 

@@ -1,0 +1,27 @@
+// Implements a vertical line for expanded sub-menus.
+
+// Configuration: Adjust to align with your specific parent text/icons
+$nav-indent-level: 1.5rem; 
+$nav-guide-color: $border-color; // Auto-adapts to Dark Mode
+
+// Only apply on Desktop/Tablet (Medium screens and up)
+@include mq(md) {
+    
+    // Target the 'active' parent folder
+    .nav-list-item.active {
+        
+        // Target the immediate child list (the dropdown)
+        > .nav-list {
+            border-left: 1px solid $nav-guide-color; // The Vertical Line
+            margin-left: $nav-indent-level;           // Indentation
+            padding-left: 0.75rem;                    // Spacing
+            box-sizing: border-box;
+        }
+    }
+
+    // Optional: Bold the text of the actual current page
+    .nav-list-item.active > .nav-list-link.active {
+        font-weight: 600; 
+        color: $link-color;
+    }
+}

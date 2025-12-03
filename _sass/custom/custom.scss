@@ -14,7 +14,7 @@ $nav-guide-color: $border-color; // Auto-adapts to Dark Mode
         > .nav-list {
             border-left: 2px solid $nav-guide-color; // The Vertical Line
             margin-left: $nav-indent-level;           // Indentation
-            padding-left: 0.5rem;                    // Spacing
+            padding-left: 0.35rem;                    // Spacing
             box-sizing: border-box;
         }
     }

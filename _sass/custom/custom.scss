@@ -1,7 +1,7 @@
 // Implements a vertical line for expanded sub-menus.
 
 // Configuration: Adjust to align with your specific parent text/icons
-$nav-indent-level: 1.5rem; 
+$nav-indent-level: 2.35rem; 
 $nav-guide-color: $border-color; // Auto-adapts to Dark Mode
 
 // Only apply on Desktop/Tablet (Medium screens and up)
@@ -12,9 +12,9 @@ $nav-guide-color: $border-color; // Auto-adapts to Dark Mode
         
         // Target the immediate child list (the dropdown)
         > .nav-list {
-            border-left: 1px solid $nav-guide-color; // The Vertical Line
+            border-left: 2px solid $nav-guide-color; // The Vertical Line
             margin-left: $nav-indent-level;           // Indentation
-            padding-left: 0.75rem;                    // Spacing
+            padding-left: 0.5rem;                    // Spacing
             box-sizing: border-box;
         }
     }

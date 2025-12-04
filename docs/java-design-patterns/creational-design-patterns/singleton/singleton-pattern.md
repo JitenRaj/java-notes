@@ -3,7 +3,7 @@ layout: default
 title: Singleton Pattern
 parent: Creational Design Patterns
 nav_order: 1
-permalink: /docs/design-patterns/creational-design-patterns/singleton
+permalink: /docs/design-patterns/creational-design-patterns/singleton-pattern
 ---
 
 ## The Singleton Pattern

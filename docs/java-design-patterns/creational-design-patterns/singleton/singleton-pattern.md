@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Singleton
+title: Singleton Pattern
 parent: Creational Design Patterns
 nav_order: 1
 permalink: /docs/design-patterns/creational-design-patterns/singleton
 ---
 
-## Singleton
+## The Singleton Pattern
 
-**Design Patterns**: _Singleton_.
+**Design Patterns**: _Singleton Pattern_.
 
 The _Singleton_ pattern is a creational design pattern that ensures a class has only one instance and provides a global point of access to that instance.
 

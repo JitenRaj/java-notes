@@ -10,7 +10,7 @@ permalink: /
 
 {: .fs-9 }
 
-A comprehensive collection of **Java** programming notes, code snippets, and best practices for Java development. Ideal for revision, learning, and interview preparation. From syntax basics to advanced concurrency and framework internals.
+A comprehensive collection of **Java** programming notes, code snippets, and concepts ranging from core syntax to advanced topics. Ideal for revision, learning, and interview preparation.
 
 {: .fs-6 .fw-300 }
 
@@ -66,4 +66,4 @@ Contributions are welcome! If you have a better explanation, a new topic, or a c
 
 ---
 
-<p class="fs-2 text-center"> Happy Learning! ☕ </p>
+Happy Learning! ☕ {: .fs-7 .fw-500 .text-center}

@@ -8,7 +8,7 @@ permalink: /
 
 ## Java Notes & Tutorials
 
-{: .fs-9 }
+{: .fs-8 }
 
 A comprehensive collection of **Java** programming notes, code snippets, and concepts ranging from core syntax to advanced topics. Ideal for revision, learning, and interview preparation.
 
@@ -42,9 +42,9 @@ Foundational concepts required for every Java developer.
 
 Leveling up your skills for enterprise applications.
 
-* **[Collections Framework](./docs/)** - List, Set, Map internals and performance.
-* **[Multithreading & Concurrency](./docs/)** - Threads, Locks, Executors, CompletableFuture.
-* **[Java 8+ Features](./docs/)** - Lambdas, Streams API, Optional.
+* **[Collections Framework](./coming-soon.md)** - List, Set, Map internals and performance.
+* **[Multithreading & Concurrency](./coming-soon.md)** - Threads, Locks, Executors, CompletableFuture.
+* **[Java 8+ Features](./coming-soon.md)** - Lambdas, Streams API, Optional.
 
 #### 🛠️ **Frameworks & Tools**
 

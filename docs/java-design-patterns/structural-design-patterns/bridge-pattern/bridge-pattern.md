@@ -2,7 +2,7 @@
 layout: default
 title: Bridge Pattern
 parent: Structural Design Patterns
-nav_order: 1
+nav_order: 2
 permalink: /docs/design-patterns/structural-design-patterns/bridge-pattern
 ---
 

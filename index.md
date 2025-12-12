@@ -66,4 +66,6 @@ Contributions are welcome! If you have a better explanation, a new topic, or a c
 
 ---
 
-Happy Learning! ☕ {: .fs-7 .fw-500 .text-center}
+{: .fs-7 .fw-500 .text-center}
+
+Happy Learning! ☕

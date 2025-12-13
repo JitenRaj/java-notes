@@ -2,9 +2,7 @@
 
 A comprehensive collection of **Java** programming notes, code snippets, and concepts ranging from core syntax to advanced topics. Ideal for revision, learning, and interview preparation.
 
-<a href="https://jitenraj.github.io/java-notes/" target="_blank">
-  <img src="https://img.shields.io/badge/🚀_Live_Demo-Java_Notes-3b82f6?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" height="40" />
-</a>
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Java_Notes-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://jitenraj.github.io/java-notes/)
 
 ---
 

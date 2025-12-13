@@ -14,7 +14,7 @@ A comprehensive collection of **Java** programming notes, code snippets, and con
 
 {: .fs-6 .fw-300 }
 
-[Browse Notes](https://jitenraj.github.io/java-notes/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View on GitHub](https://github.com/JitenRaj/java-notes){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Browse Notes](./index.md/#-explore-topics){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View on GitHub](https://github.com/JitenRaj/java-notes){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -28,17 +28,17 @@ This repository serves as a quick reference guide for:
 
 ---
 
-### 📚 Explore Topics
+## 📚 Explore Topics
 
 Select a topic to dive in. These notes are structured to be read linearly or used as a reference.
 
-#### ☕ **Core Java**
+### ☕ Core Java
 
 Foundational concepts required for every Java developer.
 
 * **[Object Oriented Programming](./docs/java-oops/java-oops.md)** - Covering key OOP concepts like Class, Object, Abstraction, Encapsulation, Inheritance, Polymorphism and Enum.
 
-#### 🚀 **Advanced Java**
+### 🚀 Advanced Java
 
 Leveling up your skills for enterprise applications.
 
@@ -46,12 +46,14 @@ Leveling up your skills for enterprise applications.
 * **[Multithreading & Concurrency](./coming-soon.md)** - Threads, Locks, Executors, CompletableFuture.
 * **[Java 8+ Features](./coming-soon.md)** - Lambdas, Streams API, Optional.
 
-#### 🛠️ **Frameworks & Tools**
+### 🛠️ Frameworks & Tools
 
 * **[Design Patterns](./docs/java-design-patterns/java-design-patterns.md)** - Covering design patterns like creational, structural, and behavioral patterns.
 
+---
+
 {: .note }
-> **Note:** These notes are constantly being updated. If you see an error, please open an Issue!
+These notes are constantly being updated. If you see an error, please open an Issue!
 
 ---
 
@@ -69,3 +71,5 @@ Contributions are welcome! If you have a better explanation, a new topic, or a c
 {: .fs-7 .fw-500 .text-center}
 
 Happy Learning! ☕
+
+---

@@ -1,22 +1,13 @@
----
-layout: default
-title: Contributing
-nav_exclude: true
-search_exclude: true
-description: ""
-permalink: /contributing
----
-
-## 🤝 Contributing
+# 🤝 Contributing
 
 Thanks for your interest in improving these notes! Since this is a personal learning repository, contributions that fix errors or clarify complex topics are highly appreciated.
 
-### How to Contribute
+## How to Contribute
 
 1. **Fixing Typos & Bugs**: If you find a spelling mistake or a code snippet that doesn't run, feel free to open a Pull Request (PR) directly.
 2. **Adding New Topics**: If you want to add notes for a new Java concept, please open an **Issue** first so we can discuss where it fits in the structure.
 
-### Steps to Submit Changes
+## Steps to Submit Changes
 
 1. **Fork** the repository.
 2. **Clone** it locally [(follow the instructions to run it).](#️-how-to-run-locally)
@@ -28,7 +19,7 @@ Thanks for your interest in improving these notes! Since this is a personal lear
 8. Provide instructions to check the effect of the changes.
 9. Await code review.
 
-Please ensure your code snippets are wrapped in markdown code blocks (e.g., ```java ...```).
+Please ensure your code snippets are wrapped in markdown code blocks (e.g., ` ```java ...``` `).
 
 ---
 

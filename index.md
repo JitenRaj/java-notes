@@ -52,7 +52,7 @@ Leveling up your skills for enterprise applications.
 
 ---
 
-{: .note-title }
+{: .note .note-title }
 
 > Note
 >
@@ -60,19 +60,6 @@ Leveling up your skills for enterprise applications.
 
 ---
 
-### 🤝 Contributing
-
-Contributions are welcome! If you have a better explanation, a new topic, or a correction:
-
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/NewTopic`).
-3. Commit your changes.
-4. Open a Pull Request.
-
----
-
 {: .fs-7 .fw-500 .text-center}
 
 Happy Learning! ☕
-
----

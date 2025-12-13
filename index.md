@@ -52,8 +52,11 @@ Leveling up your skills for enterprise applications.
 
 ---
 
-{: .note }
-These notes are constantly being updated. If you see an error, please open an Issue!
+{: .note-title }
+
+> Note
+>
+> These notes are constantly being updated. If you see an error, please open an Issue!
 
 ---
 

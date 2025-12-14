@@ -32,6 +32,7 @@ footer_content: "Copyright &copy; 2025 Jiten Raj. Distributed by an MIT license.
 markdown: kramdown
 permalink: pretty
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
 
 # -----------------------------------------------------------------------------

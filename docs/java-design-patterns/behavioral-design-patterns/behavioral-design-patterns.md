@@ -27,3 +27,4 @@ They not only describe patterns of objects or classes but also the patterns of c
 | Strategy | Interchangeable algorithms | Defines a family of algorithms and makes them interchangeable at runtime. |
 | Template Method | Skeleton of an algorithm | Defines the steps of an algorithm in a superclass but lets subclasses override steps. |
 | Visitor | Adding ops to object structure | Adds new operations to existing object structures without modifying them. |
+| Interpreter | Grammar-based language evaluation | Defines a grammar and uses an interpreter to evaluate sentences in a language (e.g., expressions, rules). |

@@ -8,7 +8,7 @@ permalink: /docs/design-patterns/behavioral-design-patterns/iterator-pattern
 
 ## Iterator Pattern
 
-**Behavioral Design Patterns**: _Iterator Pattern_.
+**Design Patterns**: _Iterator Pattern_.
 
 The _Iterator Pattern_ is a behavioral design pattern that provides a way to access the elements of an aggregate object (like a list or a collection) sequentially without exposing its underlying representation (such as an array, stack, or tree).
 

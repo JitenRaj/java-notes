@@ -8,7 +8,7 @@ permalink: /docs/design-patterns/behavioral-design-patterns/command-pattern
 
 ## Command Pattern
 
-**Behavioral Design Patterns**: _Command Pattern_.
+**Design Patterns**: _Command Pattern_.
 
 The _Command Pattern_ is a behavioral design pattern that turns a request into a stand-alone object that contains all the information about the request. This transformation allows you to parameterize methods with different requests, queue requests, and log their execution, among other things. At its core, it decouples the object that initiates an action from the object that performs the action.
 

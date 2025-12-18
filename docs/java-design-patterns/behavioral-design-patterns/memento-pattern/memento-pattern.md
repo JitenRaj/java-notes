@@ -8,7 +8,7 @@ permalink: /docs/design-patterns/behavioral-design-patterns/memento-pattern
 
 ## Memento Pattern
 
-**Behavioral Design Patterns**: _Memento Pattern_.
+**Design Patterns**: _Memento Pattern_.
 
 The _Memento Pattern_ is a behavioral design pattern that allows you to capture and externalize an object's internal state so that the object can be restored to this state later.
 

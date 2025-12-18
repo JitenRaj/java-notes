@@ -8,7 +8,7 @@ permalink: /docs/design-patterns/behavioral-design-patterns/mediator-pattern
 
 ## Mediator Pattern
 
-**Behavioral Design Patterns**: _Mediator Pattern_.
+**Design Patterns**: _Mediator Pattern_.
 
 The _Mediator Pattern_ is a behavioral design pattern that reduces chaotic dependencies between objects. The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.
 

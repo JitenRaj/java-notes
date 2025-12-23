@@ -9,20 +9,32 @@ permalink: /projects/
 
 Here is a list of my public projects and tools.
 
-### 🛡️ Java OOPs Concepts
-
-**Status:** <span class="label label-green">Active</span>
-
-Detailed tutorial on Java OOPs Concepts.
-
-[View on GitHub](https://github.com/JitenRaj/java-notes){: .btn .btn-outline }
-
 ---
 
-### ☕ Spring Boot API Demo
+{% for project in site.data.projects %}
 
-**Status:** <span class="label label-yellow">Coming soon</span>
+### {{ project.title }}
 
-A reference architecture for building REST APIs with Spring Boot 3.
+{% if project.status == "active" %}
+Active
+{: .label .label-green }
+{% elsif project.status == "inprogress" %}
+In Progress
+{: .label .label-blue }
+{% elsif project.status == "complete" %}
+Complete
+{: .label .label-purple}
+{% elsif project.status == "coming-soon" %}
+Coming Soon
+{: .label .label-yellow }
+{% elsif project.status == "deprecated" %}
+Deprecated
+{: .label .label-red }
+{% endif %}
 
-[View on GitHub](https://github.com/JitenRaj/java-notes){: .btn .btn-outline }
+{{ project.desc }}
+
+[View on GitHub]({{ project.href }}){: .btn .btn-outline .mt-3 }
+
+---
+{% endfor %}

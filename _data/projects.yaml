@@ -1,9 +1,9 @@
-- title:  title
-  desc:   "Description"
-  href:   https://github.com/JitenRaj/title
-  status: incomplete
+- title:  🛡️ OOPs Concepts in Java
+  desc:   "A Java project demonstrating OOPs concepts with practical examples."
+  href:   https://jitenraj.github.io/java-notes/docs/oops-concepts/oops-concepts/
+  status: active
 
-- title:  title
-  desc:   "Description"
-  href:   https://github.com/JitenRaj/title
-  status: inprogress
+- title:  ☕ Design Patterns in Java
+  desc:   "A comprehensive collection of design patterns implemented in Java."
+  href:   https://jitenraj.github.io/java-notes/docs/design-patterns/design-patterns/
+  status: active

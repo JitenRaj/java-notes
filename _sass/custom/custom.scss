@@ -22,3 +22,10 @@ $nav-guide-color: $border-color; // Auto-adapts to Dark Mode
     font-weight: 600;
     color: $link-color;
 }
+
+// Scroll
+
+// Prevents the sticky header from covering your titles
+h1, h2, h3, h4, h5, h6 {
+    scroll-margin-top: 4rem; // Adjust this if the gap is too big or small
+}

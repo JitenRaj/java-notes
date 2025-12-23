@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Enum
-parent: Java OOPs Concepts
-nav_order: 6
-permalink: /docs/java-oops/enum
+parent: OOPs Concepts
+nav_order: 3
 ---
 
 ## Enumerations

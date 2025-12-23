@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Inheritance
-parent: Java OOPs Concepts
-nav_order: 3
-permalink: /docs/java-oops/inheritance
+parent: OOPs Concepts
+nav_order: 5
 ---
 
 ## Inheritance

@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Java OOPs Concepts
+title: OOPs Concepts
 nav_order: 2
 has_children: true
-permalink: /docs/java-oops
 ---
 
 ## Java OOPs Concepts

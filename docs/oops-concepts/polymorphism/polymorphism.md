@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Polymorphism
-parent: Java OOPs Concepts
-nav_order: 4
-permalink: /docs/java-oops/polymorphism
+parent: OOPs Concepts
+nav_order: 6
 ---
 
 ## Polymorphism

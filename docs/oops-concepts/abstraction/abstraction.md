@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Abstraction
-parent: Java OOPs Concepts
-nav_order: 5
-permalink: /docs/java-oops/abstraction
+parent: OOPs Concepts
+nav_order: 7
 ---
 
 ## Abstraction

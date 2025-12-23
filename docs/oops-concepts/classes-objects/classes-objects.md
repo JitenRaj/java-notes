@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Classes and Objects
-parent: Java OOPs Concepts
+parent: OOPs Concepts
 nav_order: 1
-permalink: /docs/java-oops/classes-objects
 ---
 
 ## Classes and Objects

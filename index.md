@@ -8,13 +8,12 @@ permalink: /
 
 ## Java Notes & Tutorials
 
-{: .fs-8 }
+{: .fs-8 .fw-300 }
 
 A comprehensive collection of **Java** programming notes, code snippets, and concepts ranging from core syntax to advanced topics. Ideal for revision, learning, and interview preparation.
 
-{: .fs-6 .fw-300 }
-
-[Browse Notes](./index.md/#-explore-topics){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View on GitHub](https://github.com/JitenRaj/java-notes){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Browse Notes](./index.md/#-explore-topics){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View on GitHub](https://github.com/JitenRaj/java-notes){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -36,7 +35,7 @@ Select a topic to dive in. These notes are structured to be read linearly or use
 
 Foundational concepts required for every Java developer.
 
-* **[Object Oriented Programming](./docs/java-oops/java-oops.md)** - Covering key OOP concepts like Class, Object, Abstraction, Encapsulation, Inheritance, Polymorphism and Enum.
+* **[Object Oriented Programming](./docs/oops-concepts/oops-concepts.md)** - Covering key OOP concepts like Class, Object, Abstraction, Encapsulation, Inheritance, Polymorphism and Enum.
 
 ### 🚀 Advanced Java
 
@@ -48,7 +47,7 @@ Leveling up your skills for enterprise applications.
 
 ### 🛠️ Frameworks & Tools
 
-* **[Design Patterns](./docs/java-design-patterns/java-design-patterns.md)** - Covering design patterns like creational, structural, and behavioral patterns.
+* **[Design Patterns](./docs/design-patterns/design-patterns.md)** - Covering design patterns like creational, structural, and behavioral patterns.
 
 ---
 

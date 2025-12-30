@@ -7,7 +7,7 @@ nav_order: 1
 
 ## Classes and Objects
 
-**Object-Oriented Programming (OOP)**: _Classes and Objects_.
+**Object-Oriented Programming (OOP)**: _Classes, Objects and Constructors_.
 
 Classes and objects are the building blocks of OOP. A `class` acts as a blueprint for creating objects, which are instances of the `class`. Understanding these basics is essential before moving on to more advanced OOP topics like inheritance, polymorphism, and encapsulation.
 
@@ -41,7 +41,14 @@ An object is thus a concrete instance of a class that includes state, behavior, 
 
 ### Using Constructors
 
-Constructors initialize the newly created object's state. In the `Person` class, we can define a constructor to set the name and age:
+Constructors are special methods used to initialize a newly created object's state. They have the same name as the class and no return type.
+
+#### Default vs Parameterized Constructors
+
+1. **Default Constructor:** If you don't define any constructor, Java inserts a default one that sets values to null/0.
+2. **Parameterized Constructor:** Allows you to initialize an object with specific values.
+
+In the `Person` class, we can define a constructor to set the name and age:
 
 ```java
 public class Person {
@@ -122,6 +129,40 @@ public class Car {
 
 In the example above, the copy constructor ensures that all fields (`brand` and `year`) from the original `Car` object are accurately copied to the new `Car` object.
 
+### Initialization Order
+
+When you create an object (e.g., `new Car()`), code executes in a specific order. It's not just the constructor that runs!
+
+**The Order of Execution:**
+
+1. **Static Blocks / Fields:** Run once when the class is loaded by the ClassLoader.
+2. **Instance Initialization Blocks / Fields:** Run every time an object is created, _before_ the constructor.
+3. **Constructor:** Runs last to perform final initialization.
+
+```java
+public class Demo {
+    // 1. Static Block
+    static {
+        System.out.println("Step 1: Static Block (Class Loaded)");
+    }
+
+    // 2. Instance Block
+    {
+        System.out.println("Step 2: Instance Block (Object Created)");
+    }
+
+    // 3. Constructor
+    public Demo() {
+        System.out.println("Step 3: Constructor Executed");
+    }
+
+    public static void main(String[] args) {
+        new Demo();
+    }
+}
+
+```
+
 ### Member Functions
 
 Member functions define the behavior of the object. For the `Person` class, we can define a method to display the object's data:
@@ -176,3 +217,14 @@ public class Main {
 Here, we create an object, `person`, with the name "Alice" and age 30 by using the `new` keyword along with the `Person` class's constructor. The inputs "Alice" and 30 are passed directly to the constructor to initialize the object's state.
 
 The object then uses its `display` method to print its data to the console. This demonstrates how to instantiate a class and call its member functions in a Java program.
+
+### Object Destruction (Garbage Collection)
+
+In languages like C++, we must manually destroy objects to free memory. In **Java**, this process is automatic.
+
+* **Garbage Collection (GC):** A background process in the JVM that identifies objects that are no longer in use (unreachable) and deletes them to free up Heap memory.
+* **Destructors?** Java does _not_ have destructors.
+* **The `finalize()` method:** Historically, Java had a `finalize()` method, but it is **deprecated** and should not be used.
+
+{: .important }
+If we need to close resources (like files or database connections), we should use the `try-with-resources` statement or an explicit `close()` method rather than relying on the Garbage Collector.

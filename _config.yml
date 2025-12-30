@@ -14,7 +14,6 @@ baseurl: "/java-notes"
 # -----------------------------------------------------------------------------
 # Theme Settings (Just the Docs specific)
 # -----------------------------------------------------------------------------
-color_scheme: "light"
 search_enabled: true
 heading_anchors: true  # Nice feature: adds links next to headers
 
@@ -55,7 +54,7 @@ enable_copy_code_button: true
 
 # ----------------------------------------------------------------------------
 # Color Scheme Settings
-color_scheme: light
+color_scheme: nil
 
 
 # Define the Callouts explicitly

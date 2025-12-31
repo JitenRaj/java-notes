@@ -1,7 +1,7 @@
 ---
 layout: default
 title: J2EE Patterns
-nav_order: 14
+nav_order: 4
 has_children: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Java Stream API
-nav_order: 10
+nav_order: 22
 has_children: true
 permalink: /docs/java-stream-api
 ---

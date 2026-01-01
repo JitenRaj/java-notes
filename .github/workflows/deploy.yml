@@ -16,6 +16,8 @@ on:
       - 'Gemfile'
       - 'Gemfile.lock'
       - 'LICENSE'
+      - 'code/**'
+      - '**/*.java'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

@@ -44,3 +44,6 @@ build/
 *.jar
 *.war
 *.iml
+
+# Ignore security-related well-known directory
+.well-known/
